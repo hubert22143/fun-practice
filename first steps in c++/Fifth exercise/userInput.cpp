@@ -1,15 +1,17 @@
 #include <iostream>
-
+#include <cmath>
 
 int main(){
-    int age;
-    std::string name;
-
-    std::cout << "What's your full name?" << '\n';
-    std::getline(std::cin, name); // Read the entire line, including spaces
-
-    std::cout << "What's your age?" << '\n';
-    std::cin >> age;
-
-     std::cout << "Your name is " << name << " and you're " << age << " years old." << '\n';
+    double x = 3.99;
+    double y = 4;
+    double z; 
+    // z = std::max(x,y);
+    // z = std::min(x,y);
+    // z = pow(2,3);
+    // z = sqrt(9);
+    // z = abs(-3);
+    // z = round(x);
+    // z = ceil(x);
+    // z = floor(x);
+    std::cout<< z;
 }
