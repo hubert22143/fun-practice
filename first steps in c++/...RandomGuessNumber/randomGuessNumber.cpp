@@ -17,4 +17,4 @@ int main(){
         std::cout<< " Your current tries in guessing the number:" << tries << '\n';
     } while (num != guess); 
     std::cout << "Congratulations! You've won!!" << '\n';
-    
+}
